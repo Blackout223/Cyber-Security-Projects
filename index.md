@@ -56,7 +56,7 @@ I focus on vulnerability management, penetration testing, cloud security, and in
 
 Comprehensive writeups demonstrating offensive security techniques, including web exploitation, privilege escalation, and network enumeration across various difficulty levels.
 
-[View All TryHackMe Writeups →](tryhackme.html)
+[View All TryHackMe Writeups →](/TryHackMe%20Writeups/)
 
 ---
 
@@ -65,7 +65,7 @@ Comprehensive writeups demonstrating offensive security techniques, including we
 
 Cloud infrastructure security projects focusing on AWS, Docker, Kubernetes, and Linux system administration with an emphasis on security hardening and best practices.
 
-[View KodeKloud Projects →](kodekloud.html)
+[View KodeKloud Projects →](/KodeKloud/100%20Days/)
 
 ---
 
@@ -74,7 +74,7 @@ Cloud infrastructure security projects focusing on AWS, Docker, Kubernetes, and 
 
 Professional cybersecurity projects including security assessments, policy development, and network security implementations.
 
-[View Nextwork Projects →](nextwork.html)
+[View Nextwork Projects →](/NextWork%20Cloud%20Projects/)
 
 ## Continuous Learning
 
