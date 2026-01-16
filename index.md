@@ -25,10 +25,10 @@ I focus on vulnerability management, penetration testing, cloud security, and in
 - Splunk, Elastic SIEM, Microsoft Defender/Sentinel
 
 ### Cloud & Infrastructure
-- AWS (EC2, S3, IAM, CloudTrail)
-- Azure (Sentinel, Defender)
+- AWS 
+- Azure
 - Docker, Kubernetes
-- Linux (Ubuntu, Kali), Windows Server
+- Linux (Ubuntu, Kali), Windows
 
 ### Security Domains
 - Vulnerability Management
