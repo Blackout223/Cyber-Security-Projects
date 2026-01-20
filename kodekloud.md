@@ -1,15 +1,23 @@
 ---
 layout: default
-title: KodeKloud Writeups
+title: KodeKloud 100 Days 
 ---
 This is me doing 100 days of Devops on KodeKloud, which will include AWS, Azure and Linux
 ---
 # AWS
 
+| Writeup | Description | 
+|-----------|-------------|-------------|
+| [Day 1 ](/KodeKloud/100%20Days/AWS/Day%201.pdf) | Create Key Pair
+| [Day 2 ](/KodeKloud/100%20Days/AWS/Day%202.pdf) | Create Security Group
+| [Day 3 ](/KodeKloud/100%20Days/AWS/)
+
 # Azure
 
 | Writeup | Description | 
 |-----------|-------------|-------------|
-| [Day 1 ](/KodeKloud/100 Days/Azure/Day 1.pdf) | Create SSH Key Pair for Azure Virtual Machine
+| [Day 1 ](/KodeKloud/100%20Days/Azure/Day%201.pdf) | Create SSH Key Pair for Azure Virtual Machine
+| [Day 2 ](/KodeKloud/100%20Days/Azure/Day%202.pdf) | Create an Azure Virtual Machine
+| [Day 3 ](/KodeKloud/100%20Days/Azure/Day%203.pdf) | Create VM using Azure CLI
 
 ---
