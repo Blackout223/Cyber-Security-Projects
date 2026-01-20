@@ -22,7 +22,7 @@ I focus on vulnerability management, penetration testing, cloud security, and in
 ### Security Tools
 - Nmap, Metasploit, Burp Suite
 - Wireshark, John the Ripper
-- Splunk, Elastic SIEM, Microsoft Defender/Sentinel
+- Splunk, Elastic, Microsoft Defender/Sentinel
 
 ### Cloud & Infrastructure
 - AWS 
