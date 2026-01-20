@@ -4,8 +4,6 @@ title: KodeKloud Writeups
 ---
 This is me doing 100 days of Devops on KodeKloud, which will include AWS, Azure and Linux
 ---
-# List of Days
-
 # AWS
 
 # Azure
