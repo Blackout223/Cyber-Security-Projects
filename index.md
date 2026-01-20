@@ -58,7 +58,7 @@ Detailed walkthroughs and analysis of TryHackMe challenges.
 ### [KodeKloud 100 Days Challenge](/kodekloud)
 My progress through the KodeKloud DevOps challenge.
 
-### [Cloud Projects](/cloud-projects)
+### [Cloud Projects](/nextwork)
 Hands-on AWS projects.
 
 ---
