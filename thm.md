@@ -9,5 +9,7 @@ A collection of my TryHackMe room walkthroughs and analysis.
 | Writeup | Description | Difficulty
 |-----------|-------------|-------------|
 | [Gotta Catch'em all](/THM/Gotta Catch'em All Writeup.pdf) | This room is based on the original Pokemon series. Can you obtain all the Pokemon in this room? |  Easy
-
+| [Road](/THM/Road%20Writeup.pdf) | Inspired by a real-world pentesting engagement | Medium
+| [Traverse](/THM/Traverse.pdf) | Challenge your secure coding skills to restore a compromised website | Easy
+| [Vulnet: Active](/THM/VulnNet%20Active%20Writeup.pdf) | VulnNet Entertainment just moved their entire infrastructure... Check this out... | Medium
 ---
