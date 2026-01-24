@@ -69,5 +69,6 @@ I'm actively engaged in continuous professional development through:
 - Completing hands-on labs and CTF challenges
 - Pursuing industry certifications
 - Staying current with threat intelligence and security research
-- Reading cybersecurity books
+-  Reading cybersecurity books
+
 ---
