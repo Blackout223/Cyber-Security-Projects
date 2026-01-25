@@ -36,7 +36,7 @@ The right pane only summarizes the incident; more details can be found by clic
 
 It is also important to note that the source of alerts resulting in incidents may not always be Microsoft Sentinel itself. Other security products may also contribute to incidents, as seen below. In fact, this is the most common scenario: Once connected to Microsoft Sentinel, alerts from these products will produce the majority of the incidents, such as the Microsoft Defender products suite.  
 
-![Microsoft Defender for Cloud Apps, Microsoft Defender for Cloud, Microsoft Defender for Identity, Microsoft Entra ID Protection, Azure Information Protection.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/7161b858377c2b8866a68e7a3f4b5911.png)
+<img width="301" height="334" alt="image" src="https://github.com/user-attachments/assets/c63529c0-744a-4add-93e0-c5f1181be4bf" />
 
 **Is Microsoft Sentinel the only product contributing to incidents? (Yea/Nay)**
 **A: Nay**
@@ -55,7 +55,7 @@ As for a SOC analyst, **triaging** and **investigating** an incident usual
 
 - Changing the incident **status** from **New** to **Active.**
 
-![Incident ID 3: "Sign-ins from IPs attempting access to disabled accounts." Status: unassigned, new, medium severity.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/2f2a7c38554f263be78965e3cef09b40.png)
+<img width="460" height="297" alt="image" src="https://github.com/user-attachments/assets/e56b7859-1381-44a4-9b67-36330562c248" />
 
 
 ## Incident Severity
@@ -87,7 +87,7 @@ At the top of the page, you can find:
 
 SOC analysts are tasked with a series of steps—**triaging**, **investigating**, or **remediating** incidents; hence, formalizing these procedures is crucial. By establishing a standardized list of tasks, your Security Operations Center (SOC) can maintain consistency across all analysts, regardless of their shifts.
 
-!["Incident tasks" section of a task management interface. It lists three tasks: "Reset password," "Validate the alert," and "Block IPs and URLs".](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/faf8cee4fd4ada3476f0a5eabc5b6d3b.png)
+<img width="583" height="490" alt="image" src="https://github.com/user-attachments/assets/d950b4f3-93ee-463d-a475-dae02f7cc86f" />
 
 This approach guarantees that every incident receives uniform treatment and adheres to Service Level Agreements (SLAs). With predefined steps set by SOC management or senior analysts (lvl 2/3), drawing from common security frameworks like NIST, past incident experience, or recommendations from security vendors, analysts can work efficiently without deliberating on the next steps or fearing missing critical actions.
 
@@ -102,17 +102,17 @@ This approach guarantees that every incident receives uniform treatment and adh
 ## Incident Timeline
 An **incident timeline** is particularly helpful for seeing the timeline of an attacker's activity. Here, you can also search the alerts by **severity** and **tactics** to narrow down the ones you want to investigate further.
 
-![Security incident timeline and details from a cybersecurity alert system. The left side of the image displays an "Incident timeline" with a list of security events that occurred on September 26.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/0f700ebc24486d934b8fae21099fe0dc.png)
+<img width="795" height="440" alt="image" src="https://github.com/user-attachments/assets/b4bfeb20-988d-4313-90b4-bcbdb1b3a0f4" />
 
 ## Investigate With Logs
 
 To investigate a specific alert without leaving the incident details page, click "**Link to LA**". This will bring up the **Log Analytics Query** page, where we can further analyze this alert.
 
-![Microsoft Sentinel security incident management interface. The left side displays the "Incident timeline," listing multiple incidents titled "Sign-ins from IPs that attempt sign-ins..." with timestamps, all marked as "Medium" severity, and detected by Microsoft.](https://tryhackme-images.s3.amazonaws.com/user-uploads/6601e243753b8d484668851e/room-content/6601e243753b8d484668851e-1736972480721.png)  
+<img width="868" height="511" alt="image" src="https://github.com/user-attachments/assets/275f947e-a0b8-4b89-b53e-fcaa86f101dd" />
 
 Based on the **rule logic**, certain **entities** could be of interest here, such as IP addresses, accounts, etc.  
 
-![Log analysis dashboard with a query and its results. The query is designed to identify login attempts to disabled accounts.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/fbfada009541178e65788ef4f10a34fd.png)
+<img width="1378" height="712" alt="image" src="https://github.com/user-attachments/assets/1de2b6cc-3ec4-40c5-af8f-4298bebf23e9" />
 
 ## Incident Entities
 
@@ -127,20 +127,20 @@ When Microsoft Sentinel generates alerts, they contain data items that Sentinel 
 
 Knowing the IP address entity involved in the incident, incident enhancement playbooks can be applied to provide more context for this IP. For instance, these automation playbooks can call APIs such as **[IP-API](https://ip-api.com/)** to get **geolocation** details for the IP.
 
-![Microsoft Sentinel, showing details of a security incident involving the IP address 175.45.176.99.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/8ef49bd8037dd41f3772f9cd1909131d.png)
+<img width="1438" height="780" alt="image" src="https://github.com/user-attachments/assets/cba34f25-ff15-489c-a0c3-2ad3e20e95fd" />
 
 
 ## Visual Investigation
 
 Incidents can also be investigated visually. If you prefer a visual, graphical representation of alerts, entities, and the connections between them in your investigation, you can do so by clicking the **Investigate** button on the Incident Details page.  
 
-![Section of a user interface related to cybersecurity tactics and techniques.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/ae56daccdb6fa607f6ce7d725e0ecbcd.png)
+<img width="166" height="203" alt="image" src="https://github.com/user-attachments/assets/3f8c35e8-c74d-425b-a75f-2cc1f7266abb" />
 
-![Security incident report titled "Sign-ins from IPs that attempt sign-ins to disabled accounts" with a medium severity level and a new status.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/fe00834196b31581d15de79ae59b89b9.png)  
+<img width="1392" height="757" alt="image" src="https://github.com/user-attachments/assets/a2f895ff-81bf-40a7-9b1b-7f4e80c4781f" />
 
 You can further deepen your investigation by hovering over each entity. This will show a list of additional questions per entity type. These are called **exploration queries.**
 
-![Security interface showcasing a diagram of connections related to a specific IP address, 175.45.176.99. The central node shows the IP address, and multiple connected nodes representing alerts and sign-in events from various IPs.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/9970d90425acc2830418242c74db015f.png)
+<img width="493" height="427" alt="image" src="https://github.com/user-attachments/assets/2ca1d0a1-5631-498b-b7b2-36abe9143090" />
 
 **Which link can you click to see the specific logs of an alert without leaving the context of the incident details page?**
 **A: Link to LA**
@@ -229,18 +229,18 @@ On a high level, these false positives can be eliminated with the following meth
 
 
 **What is the MITRE Tactics classification for Solorigate incidents?**
-![[Pasted image 20250416165024.png]]
+<img width="393" height="419" alt="image" src="https://github.com/user-attachments/assets/debeaf02-2a5f-43e1-bc07-2886b8b17d2a" />
 **A: Command and Control**
 
 **Investigate the incident "Sign-ins from IPs that attempt sign-ins to disabled accounts". What is the IP entity involved in this incident?**
-![[Pasted image 20250416171544.png]]
+<img width="1243" height="836" alt="image" src="https://github.com/user-attachments/assets/21a8e3af-8a85-4782-ac4d-9991f1065d62" />
 **A: 175.45.176.99**
 
 **Check out this IP's geolocation. What is the city?**
 **A: Pyeongyang**
 
 **Now, dive back into the alert logs for this incident. Which disabled account was targeted by attackers?**
-![[Pasted image 20250416171843.png]]
+<img width="718" height="304" alt="image" src="https://github.com/user-attachments/assets/2c1e9ff4-c703-4ccb-ab63-432d8a73de0f" />
 **A: johns@m365x816222.onmicrosoft.com
 
 **How many login attempts were there for this disabled account?**
