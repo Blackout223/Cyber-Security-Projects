@@ -175,6 +175,7 @@ Once an incident is closed, select the classification:
 | False Positive | Incorrect alert logic
 | False Positive | Inaccurate data
 | Undetermined | --- 
+
 **True Positive -** **Suspicious Activity**
 
 - The root cause was an actual threat.  
