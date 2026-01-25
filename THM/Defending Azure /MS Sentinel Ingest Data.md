@@ -1,3 +1,7 @@
+---
+layout: default
+title: MS Sentinel - Ingest Data
+---
 
 # Getting Ready to Ingest Data
 
