@@ -107,7 +107,7 @@ Microsoft Sentinel Solutions are packages of content, such as data connectors, 
 
 - Select the recently installed Content hub solution
 - Review the Content hub **solution details** on the right pane
-![Microsoft Entra ID solution for Microsoft Sentinel.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/c9570e7892a8906e5202ef928cd10816.png)
+<img width="451" height="688" alt="image" src="https://github.com/user-attachments/assets/9c8563c0-adde-4d61-b3a6-fb033c4d1cf7" />
 
 - Note that various **content types** are deployed by this Content hub solution:
     - 63 **Analytics Rules**
@@ -116,12 +116,12 @@ Microsoft Sentinel Solutions are packages of content, such as data connectors, 
     - 2 **Workbooks** (dashboards)
 - Click **Manage** to see the **package details** for the Content hub solution
 
-![A Microsoft Sentinel Content hub interface displaying content items for Microsoft Entra ID. It shows 77 installed content items and 75 configuration-needed.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/6c17e15ef8dd539eb08e61da0ed7c7c1.png)
+<img width="971" height="725" alt="image" src="https://github.com/user-attachments/assets/d8a03e6a-3a60-4015-b41a-e178311bc8f6" />
 
 - Under **Content name**, click on **Microsoft Entra ID**
 - Review the data connector **status**
 
-![A "Data connectors" interface from a software application. It displays a summary with 1 connector available and 0 connected.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/8b3b304e4a3fe3ceac0c8c9641178e63.png)
+<img width="815" height="404" alt="image" src="https://github.com/user-attachments/assets/bd3e7ac7-c812-491e-98ba-8b43fd04cf6b" />
 
 **What Content source type is Microsoft Entra ID?**
 **A: Solution**
@@ -135,7 +135,7 @@ Now that we have a **Content hub** solution installed, which comes with a dat
 
 To connect a data connector, the concept is to go to its **connector page** and follow the specific instructions for that connector.
 
-![Microsoft Sentinel Data connectors page with the "Microsoft Entra ID" connector selected.](https://tryhackme-images.s3.amazonaws.com/user-uploads/6601e243753b8d484668851e/room-content/6601e243753b8d484668851e-1736639419064.png)
+<img width="1567" height="1121" alt="image" src="https://github.com/user-attachments/assets/dbebaa17-58f4-465b-a778-f993c582409a" />
 
 - **Description:** What the connector is  
 
@@ -168,23 +168,23 @@ To connect a data connector, the concept is to go to its **connector page** a
 
 ## Install the Threat Intelligence Content hub solution
 
-![[Pasted image 20250412202410.png]]
+<img width="1264" height="1052" alt="image" src="https://github.com/user-attachments/assets/f087cbd5-e83d-40ed-ac29-5f6b05817cf9" />
 
 ## Connect the Threat Intelligence Data
 
 - After the installation is complete, select **Manage** to **review** the deployed **Threat Intelligence** (TI) connectors
 
-![Threat intelligence solution for Microsoft Sentinel with description.](https://tryhackme-images.s3.amazonaws.com/user-uploads/6601e243753b8d484668851e/room-content/6601e243753b8d484668851e-1726532526297.png)
+<img width="399" height="722" alt="image" src="https://github.com/user-attachments/assets/7b5769fb-9815-4613-8b97-f8ab1f998741" />
 
 - Select the **Microsoft Defender Threat Intelligence** data connector and **open the connector page**
 
-![Different threat intelligence data connectors. The columns are labeled "Content name," "Created content," "Content type," and "Version."](https://tryhackme-images.s3.amazonaws.com/user-uploads/6601e243753b8d484668851e/room-content/6601e243753b8d484668851e-1726532526666.png)
+<img width="934" height="212" alt="image" src="https://github.com/user-attachments/assets/8109a79e-523f-4ac2-bc90-31d14dbaed44" />
 
 - For this data connector, only **workspace-scoped permissions** are needed, which you already have
 - Other data connectors might have different permission requirements on various scopes depending on the integration nature of that data connector
 - Click **Connect** to import **Indicators of Compromise (IOCs)** from **Microsoft Defender Threat Intelligence (MDTI)** into Microsoft Sentinel
 
-![Microsoft Defender Threat Intelligence (Preview) configuration screen in Microsoft Sentinel.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efbaebdaaea011c857b438d/room-content/9b3951acfb8d833eb3965868ce980270.png)
+<img width="1224" height="587" alt="image" src="https://github.com/user-attachments/assets/bd31f8cf-7d56-4138-b6fb-250fac419b45" />
 
 **What does the Microsoft Defender Threat Intelligence (MDTI) connector import?**
 **A: Indicators of compromise**
