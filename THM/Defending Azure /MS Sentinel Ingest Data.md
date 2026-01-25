@@ -15,6 +15,7 @@ The next logical phase is to plan and execute the log data ingestion process. In
 - How to **connect** data connectors
 
 **What is used to ingest log data into Microsoft Sentinel?**
+
 **A: Data Connectors**
 
 # Data Connectors Introduction
@@ -39,9 +40,11 @@ The Content hub provides a packaged way of installing and enabling data connecto
 <img width="1307" height="795" alt="image" src="https://github.com/user-attachments/assets/d604049f-9ec7-4e15-acf2-092d1f213fd1" />
 
 **Are data connectors specific to each data source? (Yea/Nay)**
+
 **A: Yea**
 
 **Data connectors are available in how many ways?**
+
 **A: 2**
 
 # Content Hub Introduction
@@ -71,9 +74,11 @@ Microsoft Sentinel Solutions are packages of content, such as data connectors, 
  With no Content hub solution installed, you won't see any data connectors available to connect.
 
 **What are bundles of data connectors, workbooks, analytic rules, and playbooks called in Microsoft Sentinel?**
+
 **A: Solutions**
 
 **Content source can either be a Solution or?**
+
 **A: Standalone**
 
 # Lab-02: Install Content Hub Solutions
@@ -128,9 +133,11 @@ Microsoft Sentinel Solutions are packages of content, such as data connectors, 
 <img width="815" height="404" alt="image" src="https://github.com/user-attachments/assets/bd3e7ac7-c812-491e-98ba-8b43fd04cf6b" />
 
 **What Content source type is Microsoft Entra ID?**
+
 **A: Solution**
 
 **What category is the Microsoft Entra ID?**
+
 **A: Identity, Security - Automation (SOAR)**
 
 # Connecting Data Connectors
@@ -150,9 +157,11 @@ To connect a data connector, the concept is to go to its **connector page** a
 - **Configuration:** Specific config steps for the connector
 
 **Where can you find all the details about a connector?**
+
 **A: Connector Page**
 
 **In order to configure the Microsoft Entra ID data connector, what permissions are required on the Log Analytics workspace?**
+
 **A: Read and Write**
 
 # Lab-03: Connect and Configure a Data Connector
@@ -191,8 +200,10 @@ To connect a data connector, the concept is to go to its **connector page** a
 <img width="1224" height="587" alt="image" src="https://github.com/user-attachments/assets/bd31f8cf-7d56-4138-b6fb-250fac419b45" />
 
 **What does the Microsoft Defender Threat Intelligence (MDTI) connector import?**
+
 **A: Indicators of compromise**
 
 **Can threat indicators include IP addresses and domains? (Yea/Nay)**
+
 **Yea**
 
