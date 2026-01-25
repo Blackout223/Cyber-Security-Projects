@@ -200,11 +200,14 @@ It is important to monitor the organization's log usage details regularly.
 <img width="417" height="394" alt="image" src="https://github.com/user-attachments/assets/f0664508-2f44-402a-be45-0fc14b9bb917" />
 
 **How many sets of settings are there for Microsoft Sentinel?**
+
 **A: 2**
 
 **Can Data Retention settings be found under Microsoft Sentinel workspace settings? (Yea/Nay)**
+
 **A: Yea**
 
 **Under which subcategory of settings are the Data Retention settings tucked in?**
+
 **A: Usage and estimated costs**
 
