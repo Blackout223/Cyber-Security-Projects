@@ -21,7 +21,7 @@ A collection of my TryHackMe room walkthroughs and challenges.
 |-----------|-------------|-------------|
 | [MS Sentinel Introduction](/THM/Defending%20Azure%20/MS%20Sentinel%20Introduction) | What is Microsoft Sentinel and how does it fit into the role of a Security Operations Analyst? | Easy
 | [MS Sentinel Deploy](/THM/Defending%20Azure%20/MS%20Sentinel%20Deploy) | All the things you need for the initial Microsoft Sentinel deployment | Easy
-| [MS Sentinel Ingest Data](/THM/Defending%20Azure%20/) | No logs, no correlation, no analysis, no action. Where is my log data? | Easy
+| [MS Sentinel Ingest Data](/THM/Defending%20Azure%20/MS%20Sentinel%20Ingest%20Data) | No logs, no correlation, no analysis, no action. Where is my log data? | Easy
 | [MS Sentinel Detect](/THM/Defending%20Azure%20/MS%20Sentinel%20Detect) | This room showcases how MS Sentinel helps in detecting and investigating threats | Easy
 | [MS Sentinel Investiagte](/THM/Defending%20Azure%20/MS%20Sentinel%20Investigate) | Investigate and manage incidents in Microsoft Sentinel | Medium
 ---
