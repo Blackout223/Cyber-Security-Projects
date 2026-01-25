@@ -12,6 +12,7 @@ The difference between an Azure Resource and an Azure Service:
 | Consumes either computing, networking, or storage            | Gets added to a resource OR enabled for a resource   |
 | -                                                            | To provide additional functionality to that resource |
 | E.g. Virtual Machine, Azure Storage, Log Analytics workspace | E.g. Microsoft Sentinel, Azure Policy, Entra ID      |
+
 ## Microsoft Sentinel Architecture
 
 The core component of MS Sentinel architecture is Log Analytics workspaces (LAWs). Essentially, a LAW is an Azure **_resource_** where the logs are stored

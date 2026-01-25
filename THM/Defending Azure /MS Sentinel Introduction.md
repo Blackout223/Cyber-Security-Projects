@@ -10,7 +10,6 @@ The main goal is to reduce organizational risk. The mission statement would incl
 
 ## Responsibilities
 
-|   |   |
 |---|---|
 |**Monitoring**|[SOC Level 1 Analyst](https://tryhackme.com/r/resources/blog/become-level-1-soc-analyst)|
 |**Triage**|[SOC Level 1 Analyst](https://tryhackme.com/r/resources/blog/become-level-1-soc-analyst)|
