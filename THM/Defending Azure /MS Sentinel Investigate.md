@@ -167,14 +167,14 @@ When an incident is generated in Microsoft Sentinel, it is automatically labelle
 
 Once an incident is closed, select the classification:
 
-|   |   |
-|---|---|
+
+|-----|-----|
 | **Classification** | **Description**
 | True Positive | Suspicious activity
 | Benign Positive | Suspicious but expected
 | False Positive | Incorrect alert logic
-| False Positive | Inaccurate data|
-| Undetermined | --- |
+| False Positive | Inaccurate data
+| Undetermined | --- 
 **True Positive -** **Suspicious Activity**
 
 - The root cause was an actual threat.  
