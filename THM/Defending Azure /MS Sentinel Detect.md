@@ -1,3 +1,7 @@
+---
+layout: default
+title: MS Sentinel - Detect
+---
 
 # Introduction
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: MS Sentinel - Deploy
+---
+
 # Getting Ready for Deployment
 
 ## Azure Service vs. Azure Resource
